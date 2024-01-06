@@ -1,0 +1,191 @@
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: black;
+}
+
+.sidebar {
+    height: 25%;
+    width: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 190px;
+    right: 0;
+    background-color: tra;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    white-space: nowrap;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 47px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.material-icons,
+.icon-text {
+    vertical-align: middle;
+}
+
+.material-icons {
+    padding-bottom: 3px;
+}
+
+#main {
+    transition: margin-left .5s;
+  
+    margin-left: 100px;
+}
+
+h1{
+    font-size: 4rem;
+    gap: 40px;
+    display: flex;
+    color: #666666;
+    justify-content: center;
+    align-items: center;
+}
+#color{
+    color: #ffb400;
+}
+
+.data-cont{
+    display: flex;
+    align-items: center;
+    
+    gap: 50px;
+    color: white;
+}
+
+.personal-info-left ul{
+    list-style: none;
+    line-height: 55px;
+    
+}
+
+.personal-info-right ul{
+    list-style: none;
+    line-height: 55px;
+}
+.cover-main-sec{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cover-main-sec img{
+    width: 360px;
+    height: 225PX;
+    margin-right: 2%;
+}
+
+.jooth{
+    gap: 75px;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+.box{
+    height: 156.208px;
+    width: 204.997px;
+    border: 1px solid #252525;
+    margin: 0 0 30px 0;
+    padding: 0px 30px 25px 40px;
+    color: white;
+}
+
+
+.box h2{
+    font-size: 2.7rem;
+    border-bottom: 1px solid gray;
+}
+.box p{
+    font-size: .9rem;
+}
+
+
+
+
+
+@media screen and (min-width:300px) and (max-width:720px){
+    .data-cont{
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+       font-size: 0.7rem;
+      
+    }
+    .cover-main-sec img{
+        width: 100%;
+    }
+    .jooth {
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .personal-info-right{
+        width: 48%;
+    }
+    .personal-info-left{
+        width: 48%;
+        
+    }
+    .personal-info-left ul{
+        line-height: 73px;
+    }
+    .personal-info-right ul,.personal-info-left ul{
+        padding:0 0px;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+
+
+@media screen and (max-width: 650px) {
+    
+    .cover-main-sec {
+        display: block;
+        
+       }
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/about.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+        <a href="/index.html"><span><i class="fa-solid fa-user-tie"></i><span
+                    class="icon-text">&nbsp;&nbsp;&nbsp;&nbsp;HOME</span></a><br>
+        <a href="#"><span><i class="fa-regular fa-address-card"></i></span class="icon-text">
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;CONTACT<span></a>
+    </div>
+
+    <div id="main">
+        <h2></h2>
+    </div>
+
+
+
+    <h1> ABOUT <span id="color">ME</span> </h1>
+    <div class="cover-main-sec">
+        <div class="data-cont">
+
+            <div class="personal-info-left">
+                <ul>
+                    <li><span id="color">FIRST NAME</span>: FAID</li>
+                    <li><span id="color">AGE</span>: 20 YEARS</li>
+                    <li><span id="color">PHONE</span>: 6005609016</li>
+                    <li><span id="color">LinkedIn</span>:</li>
+
+                </ul>
+            </div>
+
+            <div class="personal-info-right">
+                <ul>
+                    <li><span id="color">LAST NAME</span>: MIR</li>
+                    <li> <span id="color">Nationality</span>: INDIAN</li>
+                    <li> <span id="color">Address</span>: SRINAGAR JAMMU&KASHMIR</li>
+                    <li><span id="color">Email</span>:FAIDMIR@GMAIL.COM</li>
+                </ul>
+            </div>
+
+
+
+
+
+
+        </div>
+
+        <img src="/assetss/devpp.gif" alt="">
+    </div>
+
+
+    <div class="jooth">
+
+        <div class="box">
+            <h2><span id="color">1+</span></h2>
+            <P>YEAR OF
+                EXPERIENCE</P>
+
+        </div>
+
+        <div class="box">
+            <h2><span id="color">5+</span></h2>
+            <P>COMPLETED
+                PROJECTS</P>
+
+        </div>
+
+        <div class="box">
+            <h2><span id="color">3+</span></h2>
+            <P>CERTIFICATIONS
+                COMPLETED</P>
+
+        </div>
+
+        <div class="box">
+            <h2><span id="color">2+</span></h2>
+            <P>AWARDS
+                WON</P>
+                
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+    <script >
+        var mini = true;
+
+        function toggleSidebar() {
+            if (mini) {
+                console.log("opening sidebar");
+                document.getElementById("mySidebar").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+                this.mini = false;
+            } else {
+                console.log("closing sidebar");
+                document.getElementById("mySidebar").style.width = "85px";
+                document.getElementById("main").style.marginLeft = "85px";
+                this.mini = true;
+            }
+        }
+    </script>
+</body>
+
+</html>
